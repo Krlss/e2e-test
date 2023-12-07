@@ -1,0 +1,7 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿÷şşÿÿÿÿ8Ş¬êÄ1
+u	java:S116"TRename this field "address_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ƒšûÿÿÿÿ8è¬êÄ1
+c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(ç¿÷şşÿÿÿÿ8ê¬êÄ1
+^	java:S107*"=Method has 10 parameters, which is greater than 7 authorized.(¡÷‰ıûÿÿÿÿ8ì¬êÄ1
+i
+java:S1128"GRemove this unused import 'com.krlss.userinterfaces.ShopPageInterface'.(¤…‹Ôûÿÿÿÿ8»ò–Ä1

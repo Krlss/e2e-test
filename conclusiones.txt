@@ -1,0 +1,16 @@
+Hallazgos:
+
+Se evaluó la posibilidad de utilizar cualquier framework, y se identificó que Serenity BDD es el 
+framework deseable para la automatización de pruebas en este ejercicio. Esta elección puede estar basada en características 
+específicas de Serenity BDD, como la generación de reportes detallados y la facilidad de lectura de los resultados.
+
+Observaciones Finales:
+Nueva Experiencia con Serenity BDD: Si es la primera vez utilizando Serenity BDD, se pueden incluir observaciones sobre la experiencia de 
+trabajar con este framework, destacando sus ventajas y posiblemente los desafíos encontrados.
+
+Aprendizaje Personal: Si este ejercicio fue la primera vez que se trabajó con pruebas funcionales automatizadas, 
+se puede incluir una sección de aprendizajes personales destacando las lecciones aprendidas durante el proceso.
+
+Conclusión General:
+El ejercicio de prueba funcional automatizada ha sido completado satisfactoriamente, cumpliendo con los requisitos establecidos. 
+ Este ejercicio proporciona una valiosa experiencia en pruebas automatizadas y demuestra la capacidad para documentar y compartir de manera efectiva el trabajo realizado.

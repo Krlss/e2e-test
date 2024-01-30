@@ -1,5 +1,5 @@
-Tuve problemas con el driver de chrome para ejecutarlo, al final lo ejecute con Edge.
-(YA CORREGI) LA VERSION DEL WEB DRIVER ES 121.X.... 
+La versión del web driver es 121.x.x
+Si se necesita otra versión se tiene que descargar y borrar el webdriver y poner el nuevo, de ahí debería funcionar igual.
 
 Versiones:
 

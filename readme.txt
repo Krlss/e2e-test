@@ -6,3 +6,5 @@ Versiones:
 Gradle versión: 7.6.1
 IDE: IntelliJ 2023.1.5
 JDK: 1.8
+
+Para ejecutar este proyecto se ejecuta el RunnerTest..

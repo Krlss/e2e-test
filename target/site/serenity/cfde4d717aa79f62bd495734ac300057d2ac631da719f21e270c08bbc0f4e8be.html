@@ -144,7 +144,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-12-2023 03:03</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 04-02-2024 23:13</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -213,7 +213,7 @@
     <div class="story-title">
         <h3 class="story-header">Scenario Outline</h3>
 
-        <div class="scenario">Given User estoy en la pagina opencart<br>When selecciono un producto del catalogo<br>Then agrego el producto al carrito<br>And veo el carrito<br>When ingreso datos &lt;firstname&gt; &lt;lastname&gt; &lt;email&gt; &lt;telephone&gt; &lt;company&gt; &lt;address_1&gt; &lt;city&gt; &lt;postcode&gt; &lt;country&gt; &lt;region&gt;<br>Then veo nuevo formulario</div>
+        <div class="scenario">Given User estoy en la pagina opencart<br>When selecciono un producto del catalogo<br>Then agrego el producto al carrito<br>And veo el carrito<br>When ingreso datos desde el archivo named "&lt;dataset&gt;"<br>Then veo nuevo formulario</div>
 
     </div>
 
@@ -232,50 +232,14 @@
                 <thead>
                 <tr>
                     <th>#</th>
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Email</th>
-                        <th>Telephone</th>
-                        <th>Company</th>
-                        <th>Address 1</th>
-                        <th>City</th>
-                        <th>Postcode</th>
-                        <th>Country</th>
-                        <th>Region</th>
+                        <th>Dataset</th>
                 </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="test-ERROR"><a href="#0">1</a></td>
                             <td class="test-ERROR"><a
-                                        href="#0">Carlos</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">Pico</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">cpico6375@gmail.com</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">123456789</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">Google</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">123</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">Lima</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">123456</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">Ecuador</a>
-                            </td>
-                            <td class="test-ERROR"><a
-                                        href="#0">Manab&iacute;</a>
+                                        href="#0">dataset1</a>
                             </td>
                     </tr>
                 </tbody>
@@ -315,7 +279,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                1: Proceso de compra ({firstname=Carlos, lastname=Pico, email=cpico6375@gmail.com, telephone=123456789, company=Google, address_1=123, city=Lima, postcode=123456, country=Ecuador, region=Manabí})
+                                                1: Proceso de compra ({dataset=dataset1})
                                         </span>
                             </a>
                             <span class="evidence">
@@ -324,17 +288,55 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">232ms</span></td>
+                    <td width="100"><span class="top-level-step">688ms</span></td>
                 </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">net.serenitybdd.core.exceptions.UnrecognisedException</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.serenitybdd.core.exceptions.UnrecognisedException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)<br />com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1752)<br />com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1526)<br />com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1473)<br />com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:396)<br />com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:252)<br />com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)<br />com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)<br />com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730)<br />com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3562)<br />com.krlss.glue.LoginGlue.loadFormData(LoginGlue.java:40)<br />com.krlss.glue.LoginGlue.setTheStag(LoginGlue.java:35)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                        </td>
+                    </tr>
                     <tr>
                         <td colspan="5">
                             <table id="stepSection0" class="step-table-nested" style="display:none;">
-                <tr class="test-ERROR">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-0"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon ' title='ERROR'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
@@ -348,53 +350,15 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">085ms</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                    <td width="100"><span class="nested-group-step">033ms</span></td>
                 </tr>
-                    <tr class="test-ERROR">
-                        <td width="40">&nbsp</td>
-                        <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">net.serenitybdd.screenplay.actors.NoStageException: No stage available - it looks like you haven&#39;t called the setTheStage() method before calling this one.</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.serenitybdd.screenplay.actors.NoStageException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>com.krlss.glue.LoginGlue.login(LoginGlue.java:29)<br />✽.User estoy en la pagina opencart(file:///C:/Users/Carlos/IdeaProjects/cart-e2e/src/test/resources/features/shop.feature:5)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                        </td>
-                    </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-1"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
@@ -408,15 +372,15 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">010ms</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                    <td width="100"><span class="nested-group-step">014ms</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-2"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
@@ -430,15 +394,15 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">010ms</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                    <td width="100"><span class="nested-group-step">013ms</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-3"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
@@ -452,37 +416,37 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">012ms</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                    <td width="100"><span class="nested-group-step">008ms</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-4"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                When ingreso datos Carlos Pico cpico6375@gmail.com 123456789 Google 123 Lima 123456 Ecuador Manabí
+                                                When ingreso datos desde el archivo named "dataset1"
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                    <td width="100"><span class="nested-group-step">009ms</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                    <td width="100"><span class="nested-group-step">010ms</span></td>
                 </tr>
-                <tr class="test-SKIPPED">
+                <tr class="test-IGNORED">
 
                     <td width="70" class="step-icon">
                         <a name="0-5"></a>
                             <span style="margin-left: 40px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-slash-circle ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                     </td>
 
@@ -496,7 +460,7 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                    <td width="130"><span class="nested-group-step">IGNORED</span></td>
                     <td width="100"><span class="nested-group-step">009ms</span></td>
                 </tr>
 
@@ -506,7 +470,7 @@
             <tr class="test-ERROR">
                     <td colspan="2"></td>
                 <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                <td width="100"><span class="top-level-step"><em>0.41s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>0.86s</em></span></td>
             </tr>
 
         </table>

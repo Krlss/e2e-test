@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Purchase products at opencart" skipped="0" tests="1" time="0.41" timestamp="2023-12-07 03:03:55"><testcase name="Proceso de compra"><error message="No stage available - it looks like you haven't called the setTheStage() method before calling this one." type="net.serenitybdd.screenplay.actors.NoStageException">No stage available - it looks like you haven't called the setTheStage() method before calling this one.</error><system-err>No stage available - it looks like you haven't called the setTheStage() method before calling this one.&#13;
-com.krlss.glue.LoginGlue.login(LoginGlue.java:29)&#13;
-✽.User estoy en la pagina opencart(file:///C:/Users/Carlos/IdeaProjects/cart-e2e/src/test/resources/features/shop.feature:5)&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Purchase products at opencart" skipped="0" tests="1" time="0.86" timestamp="2024-02-04 11:13:33"><testcase name="Proceso de compra"><error type="net.serenitybdd.core.exceptions.UnrecognisedException"/><system-err>null&#13;
+com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)&#13;
+com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1752)&#13;
+com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1526)&#13;
+com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1473)&#13;
+com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:396)&#13;
+com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:252)&#13;
+com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)&#13;
+com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)&#13;
+com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4730)&#13;
+com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3562)&#13;
+com.krlss.glue.LoginGlue.loadFormData(LoginGlue.java:40)&#13;
+com.krlss.glue.LoginGlue.setTheStag(LoginGlue.java:35)&#13;
 </system-err></testcase></testsuite>
